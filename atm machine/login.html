@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="./atm.css">
+</head>
+
+<body>
+    <div class="login">
+        <div>
+            <h1>ATM MACHINE</h1>
+        </div>
+        <div id="cont">
+            <label for="accNo">Enter Your Account No:</label><br>
+            <input type="number" id="AccNumber" name="accNo"><br>
+            <p id="store1"></p>
+            <label for="password">Enter Your Pin Number:</label><br>
+            <input type="number" id="Pin" name="password">
+            <p id="store2"></p>
+            <button type="button" onclick="func1()" ondblclick="func2()" id="btn">Enter</button>
+        </div>
+        <p id="store3"></p>
+    </div>
+
+    <script src="./atm.js"></script>
+</body>
+
+</html>
